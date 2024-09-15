@@ -1,7 +1,7 @@
 # Book settings
 # Learn more at https://jupyterbook.org/customize/config.html
 
-title: My Website
+title: raywang.ca
 author: Ray Wang
 logo: logo.png
 
@@ -30,3 +30,4 @@ repository:
 html:
   use_issues_button: true
   use_repository_button: true
+  favicon: "assets/favicon.png"
