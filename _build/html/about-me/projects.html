@@ -181,9 +181,8 @@
         </ul>
         <p aria-level="2" class="caption" role="heading"><span class="caption-text">About Me</span></p>
 <ul class="current nav bd-sidenav">
-<li class="toctree-l1"><a class="reference internal" href="self-intro.html">Self-Intro</a></li>
-<li class="toctree-l1"><a class="reference internal" href="work-exp.html">Community Involvement</a></li>
-<li class="toctree-l1"><a class="reference internal" href="community.html">Community</a></li>
+<li class="toctree-l1"><a class="reference internal" href="work-exp.html">Professional Experience</a></li>
+<li class="toctree-l1"><a class="reference internal" href="community.html">Community Initiatives</a></li>
 <li class="toctree-l1"><a class="reference internal" href="education.html">Education</a></li>
 <li class="toctree-l1 current active"><a class="current reference internal" href="#">Projects</a></li>
 </ul>
@@ -381,10 +380,12 @@ document.write(`
             </div>
             <nav aria-label="Page">
                 <ul class="visible nav section-nav flex-column">
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#what-is-myst">What is MyST?</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#sample-roles-and-directives">Sample Roles and Directives</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#citations">Citations</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#learn-more">Learn more</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#pdf-content-retrieval-via-sms">PDF Content Retrieval via SMS</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#audio-video-transcription-and-content-answering-with-retrieval-augmented-generation">Audio/Video Transcription and Content Answering with Retrieval-Augmented Generation</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#project-management-planning-for-startups">Project Management Planning for Startups</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#blind-hiring-platform-with-llm-anonymization">Blind Hiring Platform with LLM Anonymization</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#grocery-delivery-pick-up-ordering-via-text-messaging">Grocery Delivery/Pick-up Ordering via Text Messaging</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#reflections">Reflections</a></li>
 </ul>
             </nav>
         </div>
@@ -398,49 +399,97 @@ document.write(`
                   
   <section class="tex2jax_ignore mathjax_ignore" id="projects">
 <h1>Projects<a class="headerlink" href="#projects" title="Link to this heading">#</a></h1>
-<p>Whether you write your book’s content in Jupyter Notebooks (<code class="docutils literal notranslate"><span class="pre">.ipynb</span></code>) or
-in regular markdown files (<code class="docutils literal notranslate"><span class="pre">.md</span></code>), you’ll write in the same flavor of markdown
-called <strong>MyST Markdown</strong>.
-This is a simple file to help you get started and show off some syntax.</p>
-<section id="what-is-myst">
-<h2>What is MyST?<a class="headerlink" href="#what-is-myst" title="Link to this heading">#</a></h2>
-<p>MyST stands for “Markedly Structured Text”. It
-is a slight variation on a flavor of markdown called “CommonMark” markdown,
-with small syntax extensions to allow you to write <strong>roles</strong> and <strong>directives</strong>
-in the Sphinx ecosystem.</p>
-<p>For more about MyST, see <a class="reference external" href="https://jupyterbook.org/content/myst.html">the MyST Markdown Overview</a>.</p>
-</section>
-<section id="sample-roles-and-directives">
-<h2>Sample Roles and Directives<a class="headerlink" href="#sample-roles-and-directives" title="Link to this heading">#</a></h2>
-<p>Roles and directives are two of the most powerful tools in Jupyter Book. They
-are kind of like functions, but written in a markup language. They both
-serve a similar purpose, but <strong>roles are written in one line</strong>, whereas
-<strong>directives span many lines</strong>. They both accept different kinds of inputs,
-and what they do with those inputs depends on the specific role or directive
-that is being called.</p>
-<p>Here is a “note” directive:</p>
+<p>Throughout my time engaging in case competitions and hackathons, I’ve had the opportunity to create solutions that examine business challenges and explore what new technology can achieve. Below are some of the highlights of my journey in competitions, including the problems tackled, solutions developed, and what I have learned.</p>
+<hr class="docutils" />
+<section id="pdf-content-retrieval-via-sms">
+<h2>PDF Content Retrieval via SMS<a class="headerlink" href="#pdf-content-retrieval-via-sms" title="Link to this heading">#</a></h2>
+<ul class="simple">
+<li><p>TECHNATION Indigenous Positive Pathways Hackathon (Champion – Fall 2023)</p></li>
+<li><p>Western AI Club’s AInnovation Challenge (Champion – Fall 2023)</p></li>
+</ul>
+<p>Developing mental health tools for at-risk communities means building with empathy and precision. My team and I engineered an SMS-based chatbot that enables mental health support for Indigenous reserves without internet coverage. The solution was designed with safe, sensitive data retrieval processes, ensuring it can operate in environments with limited infrastructure. The goal was to scale it across organizations and partner with non-profits to cover the costs of operating it.</p>
+<aside class="margin sidebar">
+<p class="sidebar-title"></p>
+<p><strong>Technologies used:</strong> Python, Twilio API, GPT–3.5, Cohere Embeddings, Pinecone</p>
+</aside>
 <div class="admonition note">
 <p class="admonition-title">Note</p>
-<p>Here is a note</p>
+<p>This project focused on <strong>low-barrier access</strong> to mental health support, prioritizing offline solutions to critical problems.</p>
 </div>
-<p>It will be rendered in a special box when you build your book.</p>
-<p>Here is an inline directive to refer to a document: <span class="xref std std-doc">markdown-notebooks</span>.</p>
 </section>
-<section id="citations">
-<h2>Citations<a class="headerlink" href="#citations" title="Link to this heading">#</a></h2>
-<p>You can also cite references that are stored in a <code class="docutils literal notranslate"><span class="pre">bibtex</span></code> file. For example,
-the following syntax: <code class="docutils literal notranslate"><span class="pre">{cite}`holdgraf_evidence_2014`</span></code> will render like
-this: <span id="id1">[]</span>.</p>
-<p>Moreover, you can insert a bibliography into your page with this syntax:
-The <code class="docutils literal notranslate"><span class="pre">{bibliography}</span></code> directive must be used for all the <code class="docutils literal notranslate"><span class="pre">{cite}</span></code> roles to
-render properly.
-For example, if the references for your book are stored in <code class="docutils literal notranslate"><span class="pre">references.bib</span></code>,
-then the bibliography is inserted with:</p>
-<span class="target" id="id2"></span></section>
-<section id="learn-more">
-<h2>Learn more<a class="headerlink" href="#learn-more" title="Link to this heading">#</a></h2>
-<p>This is just a simple starter to get you started.
-You can learn a lot more at <a class="reference external" href="https://jupyterbook.org">jupyterbook.org</a>.</p>
+<hr class="docutils" />
+<section id="audio-video-transcription-and-content-answering-with-retrieval-augmented-generation">
+<h2>Audio/Video Transcription and Content Answering with Retrieval-Augmented Generation<a class="headerlink" href="#audio-video-transcription-and-content-answering-with-retrieval-augmented-generation" title="Link to this heading">#</a></h2>
+<ul class="simple">
+<li><p>Microsoft AI in Accessibility Case Competition (Champion – Spring 2023)</p></li>
+</ul>
+<p>During this competition, we built WriteNow, a lecture transcription tool powered by OpenAI Whisper and GPT-3.5, targeted at students with accessibility needs. The product was launched with the goal of increasing engagement for students in large lecture settings who may need alternative learning formats. Over 750 users have since trialled the early version, and we aimed to scale it further across university campuses. Eventually, OpenAI launched their own add-ons with retrieval-augmented generation and transcription.</p>
+<div class="admonition-key-challenge admonition">
+<p class="admonition-title">Key Challenge</p>
+<p><strong>How do you make education more accessible to everyone, regardless of their fluency with technology?</strong></p>
+</div>
+<aside class="margin sidebar">
+<p class="sidebar-title"></p>
+<p><strong>Technologies used:</strong> OpenAI Whisper, GPT-3.5, Python, OpenAI Embeddings, Pinecone</p>
+</aside>
+</section>
+<hr class="docutils" />
+<section id="project-management-planning-for-startups">
+<h2>Project Management Planning for Startups<a class="headerlink" href="#project-management-planning-for-startups" title="Link to this heading">#</a></h2>
+<ul class="simple">
+<li><p>Ontario Project Management Competition (Second Place – Spring 2023)</p></li>
+</ul>
+<p>In this case competition, we crafted a governance plan for a start-up aiming to scale rapidly. The challenge was optimizing iteration speed while maintaining risk management and accountability structures. Using Linear, a project management tool, we mapped out an agile governance model that prioritized transparent stakeholder communication and iterative product development cycles. This competition ran at the same time as the Microsoft AI challenge, and really taught us how to work better as a team.</p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>The competition focused on <strong>scaling operations</strong> while mitigating risks: a classic project management puzzle.</p>
+</div>
+<div class="admonition tip">
+<p class="admonition-title">Tip</p>
+<p><strong>Outcome:</strong> The plan was designed to be applicable not just for the startup but as a replicable model for early-stage ventures in need of structured growth.</p>
+</div>
+</section>
+<hr class="docutils" />
+<section id="blind-hiring-platform-with-llm-anonymization">
+<h2>Blind Hiring Platform with LLM Anonymization<a class="headerlink" href="#blind-hiring-platform-with-llm-anonymization" title="Link to this heading">#</a></h2>
+<ul class="simple">
+<li><p>IBM Call for Code Case Competition (Champion – Fall 2022)</p></li>
+</ul>
+<p>One of the most ambitious projects I’ve worked on. We proposed an applicant tracking system (ATS) that anonymizes résumés using LLMs to support inclusive blind hiring practices. The goal was to create an equitable hiring process that could be adopted by companies globally, addressing biases in recruitment at scale.</p>
+<aside class="margin sidebar">
+<p class="sidebar-title"></p>
+<p><strong>Technologies used:</strong> OpenAI GPT-3, Python</p>
+</aside>
+<p>The system anonymized candidate information while providing intelligent parsing of skills and competencies that matched job descriptions. The impact was immediately clear: blind hiring could become mainstream or at least proof-of-conceptable with the right tooling. Politics aside, it may actually serve as a tool for finding better candidates… we hope.</p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>The product tackled inclusivity with LLM-based resumés parsing, demonstrating AI’s potential in <strong>equity-driven innovation</strong>. We ended up placing first globally!</p>
+</div>
+</section>
+<hr class="docutils" />
+<section id="grocery-delivery-pick-up-ordering-via-text-messaging">
+<h2>Grocery Delivery/Pick-up Ordering via Text Messaging<a class="headerlink" href="#grocery-delivery-pick-up-ordering-via-text-messaging" title="Link to this heading">#</a></h2>
+<ul class="simple">
+<li><p>National Case Competition (Champion – Fall 2021)</p></li>
+</ul>
+<p>In a community-focused challenge, my team and I reimagined how small grocery stores could operate digitally. We implemented an SMS-based ordering system that reduced operational costs by 30%. This product was intended to be a lifeline for small businesses, streamlining the way customers ordered groceries during the height of supply chain disruptions.</p>
+<div class="admonition-scalability admonition">
+<p class="admonition-title"><strong>Scalability</strong></p>
+<p>The model we developed could be adapted to other rural or small-scale operations, providing a low-cost digital solution for various industries.</p>
+</div>
+<aside class="margin sidebar">
+<p class="sidebar-title"></p>
+<p><strong>Technologies used:</strong> Python, SMS API, Data Engineering</p>
+</aside>
+</section>
+<hr class="docutils" />
+<section id="reflections">
+<h2>Reflections<a class="headerlink" href="#reflections" title="Link to this heading">#</a></h2>
+<p>In total, my teams’ performances at these competitions have collectively earned us over $43,000 in prize money. But more importantly, they’ve given me the chance to better understand how technology can address real-world problems, and more importantly, how to convincingly position technology solutions to prospective clients and buyers. I don’t think I would have ever had the chance to explore the fields of consulting and technology sales if it weren’t for these competitions, and I am forever grateful to those who organize them!</p>
+<div class="admonition tip">
+<p class="admonition-title">Tip</p>
+<p>Curious about the strategy, decks, and presentation structure we used to win? Shoot me an email.</p>
+</div>
 </section>
 </section>
 
@@ -499,10 +548,12 @@ You can learn a lot more at <a class="reference external" href="https://jupyterb
   </div>
   <nav class="bd-toc-nav page-toc">
     <ul class="visible nav section-nav flex-column">
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#what-is-myst">What is MyST?</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#sample-roles-and-directives">Sample Roles and Directives</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#citations">Citations</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#learn-more">Learn more</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#pdf-content-retrieval-via-sms">PDF Content Retrieval via SMS</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#audio-video-transcription-and-content-answering-with-retrieval-augmented-generation">Audio/Video Transcription and Content Answering with Retrieval-Augmented Generation</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#project-management-planning-for-startups">Project Management Planning for Startups</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#blind-hiring-platform-with-llm-anonymization">Blind Hiring Platform with LLM Anonymization</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#grocery-delivery-pick-up-ordering-via-text-messaging">Grocery Delivery/Pick-up Ordering via Text Messaging</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#reflections">Reflections</a></li>
 </ul>
   </nav></div>
 

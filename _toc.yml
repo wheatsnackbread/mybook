@@ -6,7 +6,6 @@ root: index
 parts:
   - caption: About Me
     chapters:
-      - file: about-me/self-intro
       - file: about-me/work-exp
       - file: about-me/community
       - file: about-me/education
