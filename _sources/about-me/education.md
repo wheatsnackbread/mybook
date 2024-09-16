@@ -1,55 +1,28 @@
 # Education
 
-Whether you write your book's content in Jupyter Notebooks (`.ipynb`) or
-in regular markdown files (`.md`), you'll write in the same flavor of markdown
-called **MyST Markdown**.
-This is a simple file to help you get started and show off some syntax.
+## Ivey Business School
 
-## What is MyST?
-
-MyST stands for "Markedly Structured Text". It
-is a slight variation on a flavor of markdown called "CommonMark" markdown,
-with small syntax extensions to allow you to write **roles** and **directives**
-in the Sphinx ecosystem.
-
-For more about MyST, see [the MyST Markdown Overview](https://jupyterbook.org/content/myst.html).
-
-## Sample Roles and Directives
-
-Roles and directives are two of the most powerful tools in Jupyter Book. They
-are kind of like functions, but written in a markup language. They both
-serve a similar purpose, but **roles are written in one line**, whereas
-**directives span many lines**. They both accept different kinds of inputs,
-and what they do with those inputs depends on the specific role or directive
-that is being called.
-
-Here is a "note" directive:
+I'm wrapping up my undergraduate the Ivey Business School, focusing on business administration while carrying over a foundation of technical knowledge from my previous coursework in computer science. Cumulatively since first year, I have achieved a 3.9/4.0 CGPA, and seek to study strategy, technology, and leadership in businesses.
+I have been incredibly fortunate to receive a **National Scholarship** among other awards recognizing my performance in coursework and contributions to technology leadership.
 
 ```{note}
-Here is a note
+The National Scholar designation is a university entrance award emphasizing both academic excellence and demonstrated leadership.
 ```
 
-It will be rendered in a special box when you build your book.
+### Research Focus
 
-Here is an inline directive to refer to a document: {doc}`markdown-notebooks`.
+My academic journey at Ivey also includes a deep dive into enterprise strategy and risk management for **large language models (LLMs)**. Alongside faculty, I spent a summer researching this space, where I contributed to case writing and research dissemination. I hope to see my case about chatbot safety at Air Canada published soon!
 
-## Citations
+I completed this work thanks to the **Undergraduate Summer Research Internship (USRI)** program, which enabled me to developed a product that assists political researchers in understanding organizational and political interests using generative AI models.
 
-You can also cite references that are stored in a `bibtex` file. For example,
-the following syntax: `` {cite}`holdgraf_evidence_2014` `` will render like
-this: {cite}`holdgraf_evidence_2014`.
-
-Moreover, you can insert a bibliography into your page with this syntax:
-The `{bibliography}` directive must be used for all the `{cite}` roles to
-render properly.
-For example, if the references for your book are stored in `references.bib`,
-then the bibliography is inserted with:
-
-```{bibliography}
-
+```{admonition} Funding Opportunity
+The Undergraduate Summer Research Internship (USRI) provided both funding and access to resources that allowed me to explore how LLMs can be responsibly integrated into enterprise operations. I highly recommend Western main campus and Ivey students to apply for such opportunities; applications typically open via email in March.
 ```
 
-## Learn more
+## Western University - Computer Science
 
-This is just a simple starter to get you started.
-You can learn a lot more at [jupyterbook.org](https://jupyterbook.org).
+Before transitioning into business, I completed two years in **computer science** at Western University, where I maintained aa 92% GPA in the program. This technical foundation continues to inform my approach to data, AI, and problem-solving today. During my time there, I earned the **Robert and Ruth Lumsden Academic Scholarship** and secured a spot on the Dean’s Honour List for two consecutive years.
+
+```{margin} Fast Fact:
+Computer science helped sharpen my technical problem-solving abilities, which later came into play in working with large-scale data and AI projects during research.
+```
