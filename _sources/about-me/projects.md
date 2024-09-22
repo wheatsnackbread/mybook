@@ -110,9 +110,9 @@ I don't think I would have ever had the chance to explore the fields of consulti
 And of course, a special shoutout to all the beloved competition teammates that I have ever worked with. The real win was getting to know you. Thank you for putting up with me all these years! 😉 (If you're an employer, please hire these guys <3)
 
 - Alice Yang
+- Ethan Wu
 - Joyce Liu
 - Sam Lu
-- Ethan Wu
 - Jeffrey Li
 - Sophia Ma
 - Grace Zhou
@@ -129,4 +129,4 @@ And of course, a special shoutout to all the beloved competition teammates that 
 - Louise Sun
 - Rickie Huang
 
-* Ping me if I forgot your name here haha
+Ping me if I forgot your name here haha.
